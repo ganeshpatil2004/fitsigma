@@ -58,7 +58,6 @@ const handleLogin = () => {
               Email
             </label>
           </div>
-
           {/* Password */}
           <div className="relative mb-4">
             <input
@@ -85,7 +84,6 @@ const handleLogin = () => {
               {showPassword ? <EyeOff size={15} /> : <Eye size={15} />}
             </button>
           </div>
-
           {/* Login Button */}
         <button
   onClick={handleLogin}
@@ -93,7 +91,6 @@ const handleLogin = () => {
 >
   Login
 </button>
-
           {/* Remember / Forgot */}
           <div className="flex justify-between items-center mt-3 text-xs text-gray-400">
             <label className="flex items-center gap-1.5 cursor-pointer">
@@ -116,7 +113,6 @@ const handleLogin = () => {
     className="text-blue-400 hover:underline"
   >Sign up</Link>
 </p>
-
           {/* Social Login */}
           <div className="mt-4">
             <p className="text-center text-gray-600 text-xs mb-2.5">Or login with</p>
@@ -144,10 +140,8 @@ const handleLogin = () => {
               </button>
             </div>
           </div>
-
         </div>
       </div>
-
       {/* RIGHT */}
       <div className="w-1/2 h-full relative overflow-hidden">
         <img
@@ -163,7 +157,6 @@ const handleLogin = () => {
           }}
         />
       </div>
-
     </div>
   );
 };
