@@ -95,7 +95,6 @@ const Login = () => {
               Email
             </label>
           </div>
-
           {/* Password */}
           <div className="relative mb-6">
             <input
@@ -123,8 +122,8 @@ const Login = () => {
               {showPassword ? <EyeOff size={20} /> : <Eye size={20} />}
             </button>
           </div>
-
           {/* Login Button */}
+<<<<<<< HEAD
           <button
             onClick={handleLogin}
             className="w-full bg-blue-600 hover:bg-blue-700 py-3.5 rounded-lg text-base text-white font-medium transition-colors"
@@ -132,6 +131,14 @@ const Login = () => {
             Login
           </button>
 
+=======
+        <button
+  onClick={handleLogin}
+  className="w-full bg-blue-600 hover:bg-blue-700 py-2.5 rounded-lg text-sm text-white font-medium transition-colors"
+>
+  Login
+</button>
+>>>>>>> 850d37d5f034fbd4d741b439f0febca2f0bd196c
           {/* Remember / Forgot */}
           <div className="flex justify-between items-center mt-4 text-sm text-gray-400">
             <label className="flex items-center gap-2 cursor-pointer">
@@ -144,11 +151,21 @@ const Login = () => {
           </div>
 
           {/* Signup */}
+<<<<<<< HEAD
           <p className="text-center text-sm text-gray-400 mt-4">
             Don't have an account?{" "}
             <Link to="/signup" className="text-blue-400 hover:underline">Sign up</Link>
           </p>
 
+=======
+         <p className="text-center text-xs text-gray-400 mt-3">
+  Don't have an account?{" "}
+  <Link
+    to="/signup"
+    className="text-blue-400 hover:underline"
+  >Sign up</Link>
+</p>
+>>>>>>> 850d37d5f034fbd4d741b439f0febca2f0bd196c
           {/* Social Login */}
           <div className="mt-6">
             <p className="text-center text-gray-600 text-sm mb-4">Or login with</p>
@@ -176,10 +193,8 @@ const Login = () => {
               </button>
             </div>
           </div>
-
         </div>
       </div>
-
       {/* RIGHT */}
       <div className="w-1/2 h-full relative overflow-hidden">
         <img
@@ -193,7 +208,6 @@ const Login = () => {
           style={{ background: "linear-gradient(to right, #0d0d0d 0%, transparent 35%)" }}
         />
       </div>
-
     </div>
   );
 };
